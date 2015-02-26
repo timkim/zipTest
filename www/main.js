@@ -163,3 +163,11 @@ function init() {
 }
 
 window.onload = init;
+
+//
+// phonegap-app-developer support
+//
+
+document.addEventListener('deviceready', function() {
+    navigator.splashscreen.hide();
+}, false);
